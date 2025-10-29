@@ -1,0 +1,9 @@
+-r requirements.txt
+black
+isort
+ruff
+pylint
+pytest
+nbconvert
+papermill
+ipykernel

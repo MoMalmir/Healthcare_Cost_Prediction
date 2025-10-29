@@ -1,0 +1,27 @@
+
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+
+data/*
+!data/.gitkeep        # keeps the folder itself in repo
+*.parquet
+*.csv
+*.zip
+*.gz
+
+
+mlruns/
+mlruns_clean/
+
+reports/
+*.tmp
+*.bak
+*.swp
